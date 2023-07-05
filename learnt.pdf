@@ -1,0 +1,62 @@
+using variables in upper case makes them as if they will be constatnt/unchanged throughtout by vs-code
+use const always
+operator precedeance , 8+8 / 4 : 10, (8+8) /4 :4
+type conversion : converting str to num ourslef
+type coersion : console.log('i am' + 23 + 'years old') = i am 23 years old, the 23 will be converted into string by js 
+itself, console.log('23' - '10' - 3) = 10 , js converts str to num bcz of - sign if we put + it will be 23103. - / * < 
+work by type coercion. console.log('23' < '3') = false.
+
+
+
+ip:
+77.68.15.84
+port: 22
+password: z_Y1%tKW0a
+
+button:active
+
+box shadow
+
+overflow hidden
+
+
+
+DOM SRC image
+
+
+REMOVE EVENT WITH FUNC
+
+DONT STORE IN DOM RTHER JS
+
+ACTIVE PLAYER LOGIC - MOST IMP
+
+
+this keyword
+
+simple fun call , this = undefined if strict mode else window
+
+arrow, no own this, borrows from parent, if parent this is undefined then its undefined, however run open on top then borrows its parent i.e window
+
+event listener func, this = dom element on which ;ist is
+
+this = object that calls func.
+
+
+primitives vs refernece (obj,arr)
+let a = 30
+b = a
+a = 31
+
+b(30)
+a(31)
+
+
+let obj = {
+    name:'bilal'
+}
+
+let friend = obj
+
+friend.age = 13
+
+So friend and obj will be same with age var bcz both in stack points to same address and same value if value is changed in one object, second also changes because both point to same value but for primitives they point to same value and address if one chnages then a new address with new will be formed for that variable but the other willl remain same as before.
